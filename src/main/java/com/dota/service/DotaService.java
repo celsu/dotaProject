@@ -18,6 +18,7 @@ public class DotaService {
                 .sorted((hero1, hero2) -> hero2.getId().compareTo(hero1.getId()))
                 .collect(Collectors.toList());*/
 
+        //Att
         return ex.getHeroes().stream().sorted((hero1, hero2) -> hero2.getId().compareTo(hero1.getId()))
                 .collect(Collectors.toList());
     }
